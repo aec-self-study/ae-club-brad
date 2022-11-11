@@ -1,0 +1,16 @@
+
+version: 2
+
+models:
+  - name: customers
+    columns:
+      - name: customer_id
+      - name: name
+      - name: email
+      - name: n_orders
+      - name: first_order_at
+
+  - name: monthly_customers
+    columns:
+      - name: date_month
+      - name: new_customers
